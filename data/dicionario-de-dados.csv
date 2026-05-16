@@ -1,0 +1,54 @@
+variavel_pt,variable_en,categoria_pt
+ID,ID,Identificação e Escopo do Estudo
+Título do Artigo,Article title,Identificação e Escopo do Estudo
+Autor(es),Author(s),Identificação e Escopo do Estudo
+Ano de Publicação,Publication year,Identificação e Escopo do Estudo
+Fonte/Periódico,Journal/source,Identificação e Escopo do Estudo
+DOI/Link,DOI/link,Identificação e Escopo do Estudo
+Foco de Pesquisa,Research focus,Identificação e Escopo do Estudo
+Objetivos de Pesquisa,Research objectives,Identificação e Escopo do Estudo
+País,Country,Características Estruturais do PSA
+Bioma Específico,Specific biome,Características Estruturais do PSA
+Nome do PSA,PES program name,Características Estruturais do PSA
+Tipo de PSA,Type of PES,Características Estruturais do PSA
+Objetivos do PSA,PES objectives,Características Estruturais do PSA
+Escala de aplicação,Implementation scale,Características Estruturais do PSA
+População-alvo,Target population,Características Estruturais do PSA
+Beneficiários,Beneficiaries,Características Estruturais do PSA
+Condicionalidade,Conditionality,Desenho Institucional e Econômico
+Modalidade de Pagamento,Payment modality,Desenho Institucional e Econômico
+Método de definição do Valor pago,Payment value definition method,Desenho Institucional e Econômico
+Valor do pagamento,Payment value,Desenho Institucional e Econômico
+Arranjo de Governança / Intermediários,Governance arrangement/intermediaries,Desenho Institucional e Econômico
+Duração do programa,Program duration,Desenho Institucional e Econômico
+Fontes de financiamento,Funding sources,Desenho Institucional e Econômico
+Mec. Seleção,Selection mechanism,Acesso e Governança Local
+Critérios Espaciais,Spatial criteria,Acesso e Governança Local
+Segurança Fundiária,Land tenure security,Acesso e Governança Local
+Monitoramento,Monitoring,Acesso e Governança Local
+Comunidades locais e indígenas,Local and Indigenous communities,Acesso e Governança Local
+Desenho do estudo de avaliação,Evaluation design,Metodologia da Avaliação e Indicadores
+Técnicas aplicadas,Applied techniques,Metodologia da Avaliação e Indicadores
+Econometria,Econometrics,Metodologia da Avaliação e Indicadores
+Local de Estudo,Study site,Metodologia da Avaliação e Indicadores
+Variáveis Consideradas,Variables considered,Metodologia da Avaliação e Indicadores
+Contrafactual,Counterfactual,Metodologia da Avaliação e Indicadores
+Indicadores de impacto ambiental,Environmental impact indicators,Metodologia da Avaliação e Indicadores
+Indicadores de impacto econômico,Economic impact indicators,Metodologia da Avaliação e Indicadores
+Indicadores de impacto social,Social impact indicators,Metodologia da Avaliação e Indicadores
+Métodos de análise de dados,Data analysis methods,Metodologia da Avaliação e Indicadores
+Período de avaliação,Evaluation period,Metodologia da Avaliação e Indicadores
+Resultados Ambientais,Environmental results,Resultados e Conclusões do Estudo
+Resultados Econômicos,Economic results,Resultados e Conclusões do Estudo
+Resultados Sociais,Social results,Resultados e Conclusões do Estudo
+Impacto Reportado,Reported impact,Resultados e Conclusões do Estudo
+Explicação do Impacto Reportado,Reported impact explanation,Resultados e Conclusões do Estudo
+Magnitude do Impacto Reportado,Reported impact magnitude,Resultados e Conclusões do Estudo
+Explicação da Magnitude do Impacto Reportado,Impact magnitude explanation,Resultados e Conclusões do Estudo
+Fatores críticos de sucesso,Critical success factors,Resultados e Conclusões do Estudo
+Desafios/limitações do programa,Program challenges/limitations,Resultados e Conclusões do Estudo
+Conclusões dos autores,Authors' conclusions,Resultados e Conclusões do Estudo
+Lacunas Identificadas,Identified gaps,Resultados e Conclusões do Estudo
+Recomendações Práticas / Lições de Gestão,Practical recommendations/management lessons,Síntese Aplicada
+Risco de Viés Geral,Overall risk of bias,Qualidade da Evidência
+Justificativa do Viés,Risk-of-bias justification,Qualidade da Evidência
