@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Base de Dados de Impactos de PSA em Regiões Tropicais</title>
+  <meta name="description" content="Base de dados aberta sobre avaliações de impacto de Pagamentos por Serviços Ambientais em regiões tropicais.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <span class="brand-mark">PSA</span>
+        <span>
+          <strong data-i18n="brandTitle">Base de Dados PSA Tropical</strong>
+          <small data-i18n="brandSubtitle">Evidências sobre impactos socioeconômicos e ambientais</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#pesquisa" data-i18n="navStudy">Pesquisa</a>
+        <a href="#base" data-i18n="navDataset">Base de dados</a>
+        <a href="#explorar" data-i18n="navExplore">Explorar</a>
+        <a href="#downloads" data-i18n="navDownloads">Downloads</a>
+      </nav>
+
+      <div class="language-toggle" aria-label="Selecionar idioma">
+        <button id="btn-pt" class="active" type="button">PT</button>
+        <button id="btn-en" type="button">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">Produto Técnico-Tecnológico • Ciência Aberta</p>
+          <h1 data-i18n="heroTitle">Base de dados de impactos de Pagamentos por Serviços Ambientais em regiões tropicais</h1>
+          <p class="hero-text" data-i18n="heroText">
+            Repositório aberto com evidências sistematizadas de avaliações de impacto de programas de PSA,
+            reunindo informações sobre desenho institucional, métodos de avaliação, resultados e risco de viés.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#downloads" data-i18n="downloadData">Baixar dados</a>
+            <a class="button secondary" href="#explorar" data-i18n="exploreData">Explorar tabela</a>
+          </div>
+        </div>
+
+        <aside class="summary-card" aria-label="Resumo da base">
+          <h2 data-i18n="quickNumbers">Números da base</h2>
+          <div class="stats-grid">
+            <div><strong id="stat-articles">71</strong><span data-i18n="statArticles">artigos</span></div>
+            <div><strong id="stat-countries">19</strong><span data-i18n="statCountries">países</span></div>
+            <div><strong id="stat-years">2006–2025</strong><span data-i18n="statYears">período</span></div>
+            <div><strong id="stat-vars">53</strong><span data-i18n="statVars">variáveis</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="pesquisa" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker" data-i18n="studyKicker">Sobre a pesquisa</p>
+          <h2 data-i18n="studyTitle">O que foi investigado?</h2>
+          <p data-i18n="studyText1">
+            A base deriva de uma revisão sistemática da literatura sobre impactos socioeconômicos e ambientais
+            de programas de Pagamento por Serviços Ambientais em regiões tropicais.
+          </p>
+          <p data-i18n="studyText2">
+            A seleção priorizou artigos de avaliação de impacto com inferência causal, incluindo desenhos
+            experimentais, quase-experimentais ou estratégias contrafactuais explícitas.
+          </p>
+        </div>
+        <div class="method-box">
+          <h3 data-i18n="methodTitle">Síntese metodológica</h3>
+          <ul>
+            <li data-i18n="method1">Bases consultadas: Scopus e Web of Science.</li>
+            <li data-i18n="method2">Protocolo de seleção: PRISMA 2020.</li>
+            <li data-i18n="method3">Amostra final: 71 artigos publicados entre 2006 e 2025.</li>
+            <li data-i18n="method4">Escopo: programas de PSA em regiões tropicais.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="base" class="section alt">
+      <div class="container">
+        <p class="section-kicker" data-i18n="datasetKicker">Base de dados</p>
+        <h2 data-i18n="datasetTitle">O que a base contém?</h2>
+        <p class="wide" data-i18n="datasetText">
+          A planilha completa reúne 53 variáveis organizadas em categorias que cobrem identificação bibliográfica,
+          características dos programas de PSA, desenho institucional, governança, método de avaliação, indicadores,
+          resultados, recomendações práticas e risco de viés.
+        </p>
+
+        <div class="category-grid" role="list">
+          <article role="listitem">
+            <h3 data-i18n="cat1Title">Identificação</h3>
+            <p data-i18n="cat1Text">Título, autores, ano, periódico e DOI/link.</p>
+          </article>
+          <article role="listitem">
+            <h3 data-i18n="cat2Title">Características do PSA</h3>
+            <p data-i18n="cat2Text">País, bioma, tipo de PSA, objetivos, escala e público-alvo.</p>
+          </article>
+          <article role="listitem">
+            <h3 data-i18n="cat3Title">Desenho institucional</h3>
+            <p data-i18n="cat3Text">Condicionalidade, pagamentos, governança, duração e financiamento.</p>
+          </article>
+          <article role="listitem">
+            <h3 data-i18n="cat4Title">Avaliação de impacto</h3>
+            <p data-i18n="cat4Text">Desenho de avaliação, técnicas, econometria, contrafactual e indicadores.</p>
+          </article>
+          <article role="listitem">
+            <h3 data-i18n="cat5Title">Resultados</h3>
+            <p data-i18n="cat5Text">Impactos ambientais, econômicos e sociais, magnitude e conclusões dos autores.</p>
+          </article>
+          <article role="listitem">
+            <h3 data-i18n="cat6Title">Qualidade da evidência</h3>
+            <p data-i18n="cat6Text">Risco de viés geral e justificativa metodológica.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="explorar" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker" data-i18n="exploreKicker">Explorar</p>
+            <h2 data-i18n="exploreTitle">Prévia dos estudos incluídos</h2>
+          </div>
+          <p class="section-note" data-i18n="exploreNote">Esta tabela usa um resumo da base completa. Para análise detalhada, baixe o XLSX ou CSV.</p>
+        </div>
+
+        <div class="filters" aria-label="Filtros da tabela">
+          <label>
+            <span data-i18n="filterSearch">Buscar</span>
+            <input id="search" type="search" placeholder="Título, autor, país ou programa">
+          </label>
+          <label>
+            <span data-i18n="filterCountry">País</span>
+            <select id="country-filter"><option value="" data-i18n="allCountries">Todos</option></select>
+          </label>
+          <label>
+            <span data-i18n="filterMagnitude">Magnitude</span>
+            <select id="magnitude-filter">
+              <option value="" data-i18n="allMagnitudes">Todas</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="filterBias">Risco de viés</span>
+            <select id="bias-filter">
+              <option value="" data-i18n="allBias">Todos</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="visual-grid">
+          <div class="mini-panel">
+            <h3 data-i18n="countryChartTitle">Distribuição por país</h3>
+            <div id="country-bars" class="bars" aria-live="polite"></div>
+          </div>
+          <div class="mini-panel">
+            <h3 data-i18n="magnitudeChartTitle">Magnitude reportada</h3>
+            <div id="magnitude-list" class="pill-list" aria-live="polite"></div>
+          </div>
+        </div>
+
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="thYear">Ano</th>
+                <th data-i18n="thTitle">Artigo</th>
+                <th data-i18n="thCountry">País</th>
+                <th data-i18n="thPES">Programa/PSA</th>
+                <th data-i18n="thImpact">Impacto</th>
+                <th data-i18n="thMagnitude">Magnitude</th>
+                <th data-i18n="thBias">Viés</th>
+                <th>DOI</th>
+              </tr>
+            </thead>
+            <tbody id="study-table">
+              <tr><td colspan="8" data-i18n="loading">Carregando dados...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="downloads" class="section alt">
+      <div class="container downloads-grid">
+        <div>
+          <p class="section-kicker" data-i18n="downloadsKicker">Downloads</p>
+          <h2 data-i18n="downloadsTitle">Arquivos disponíveis</h2>
+          <p data-i18n="downloadsText">
+            A base completa pode ser baixada em XLSX e CSV. O dicionário de dados resume as variáveis e suas categorias.
+          </p>
+        </div>
+
+        <div class="download-cards">
+          <a class="download-card" href="data/base-dados-psa-tropicos.xlsx" download>
+            <strong>XLSX</strong>
+            <span data-i18n="xlsxDesc">Planilha completa</span>
+          </a>
+          <a class="download-card" href="data/base-dados-psa-tropicos.csv" download>
+            <strong>CSV</strong>
+            <span data-i18n="csvDesc">Base completa em CSV</span>
+          </a>
+          <a class="download-card" href="data/dicionario-de-dados.csv" download>
+            <strong>CSV</strong>
+            <span data-i18n="dictDesc">Dicionário de dados</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="citacao" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker" data-i18n="citationKicker">Citação</p>
+          <h2 data-i18n="citationTitle">Como citar</h2>
+          <p data-i18n="citationText">
+            Ajuste o texto abaixo após a publicação final da dissertação e do repositório.
+          </p>
+          <div class="citation-box">
+            <span data-i18n="citationTemplate">Cavalcante, A. A. N. (2026). Base de dados de impactos de Pagamentos por Serviços Ambientais em regiões tropicais [Dataset]. GitHub.</span>
+          </div>
+        </div>
+
+        <div>
+          <p class="section-kicker" data-i18n="contactKicker">Contato</p>
+          <h2 data-i18n="contactTitle">Responsável</h2>
+          <p><strong>Alexander Afonso Nogueira Cavalcante</strong></p>
+          <p data-i18n="contactText">Programa de Pós-Graduação em Economia Profissional, Universidade Federal do Amazonas.</p>
+          <p class="muted" data-i18n="contactHint">Inclua aqui um e-mail institucional, ORCID ou link do currículo, caso deseje.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-i18n="footerText">Produto Técnico-Tecnológico vinculado a uma dissertação de mestrado sobre PSA em regiões tropicais.</p>
+      <a href="#conteudo" data-i18n="backTop">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
